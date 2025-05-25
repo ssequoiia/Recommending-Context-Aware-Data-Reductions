@@ -48,12 +48,12 @@ Experiments were conducted to evaluate the system's performance on the following
 ### Datasets
 
 - [Heart Attack Prediction](https://www.kaggle.com/datasets/juledz/heart-attack-prediction)
-- [Hotel Booking]: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
-- [Housing]: https://www.kaggle.com/datasets/camnugent/california-housing-prices
-- [Company Bankruptcy Prediction]: https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction
-- [Mushrooms Classification]: https://www.kaggle.com/datasets/uciml/mushroom-classification
-- [Boston House Pricing]: https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data
-- [Students Performance]: https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
+- [Hotel Booking](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
+- [Housing](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+- [Company Bankruptcy Prediction](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
+- [Mushrooms Classification](https://www.kaggle.com/datasets/uciml/mushroom-classification)
+- [Boston House Pricing](https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data)
+- [Students Performance](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 
 ### Evaluation Metrics 
 
