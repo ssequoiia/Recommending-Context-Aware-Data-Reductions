@@ -2,13 +2,17 @@
 This file contains the analysis of the results obtained after the evaluation step by scenario.
 
 ### 1. Healthcare \& Medical Diagnostics 
+
 Priority Order: Reduced size → Interpretability → Performance → Computational cost 
+
 In medical contexts, datasets often involve high-dimensional patient data. Reduced size is prioritized to improve model robustness and mitigate overfitting. 
 Interpretability is crucial because clinicians must understand and trust model decisions, especially in high-stakes scenarios. 
 While performance is important, it’s acceptable to slightly compromise accuracy for transparency. 
 Computational cost is less critical due to access to hospital infrastructure or cloud computing.
 
 ![Heart Attack Prediction](.github/assests/images/1.Medical.png)
+
+---
 
 ### 2. Tourism \& Hospitality Management 
 Priority Order: Computational cost → Performance → Reduced size → Interpretability 
@@ -19,6 +23,8 @@ Interpretability is less crucial as decisions affect revenue but not human healt
 
 ![Hotel Booking Prediction](.github/assests/images/2.Hotel.png)
 
+---
+
 ### 3. Sociodemographic Studies \& Public Policy 
 Priority Order: Performance → Computational cost → Reduced size → Interpretability 
 In policy-making, accurate prediction or classification of social phenomena is central for resource allocation and planning. 
@@ -27,6 +33,8 @@ Reduced size is valued to ensure feasibility on standard infrastructure.
 Interpretability is less critical as decisions are aggregated and not made at the individual level.
 
 ![Housing](.github/assests/images/3.Housing.png)
+
+---
 
 ### 4. Finance \& Risk Management 
 Priority Order: Performance → Computational cost → Reduced size → Interpretability 
@@ -37,6 +45,8 @@ While interpretability is helpful (e.g., for regulatory compliance), it often ta
 
 ![Company Bankruptcy Prediction](.github/assests/images/4.Bankruptcy.png)
 
+---
+
 ### 5. Agriculture \& Food Safety 
 Priority Order: Computational cost → Performance → Reduced size → Interpretability 
 In field-based applications, computational efficiency is a priority due to the use of edge devices (e.g., sensors, drones). 
@@ -45,6 +55,8 @@ Reduced size supports deployment on lightweight systems.
 Interpretability is useful but not mission-critical for automated decisions.
 
 ![Mushrooms Classification](.github/assests/images/5.Mushrooms.png)
+
+---
 
 ### 6. Urban Planning \& Real Estate Economics 
 Priority Order: Performance → Interpretability → Reduced size → Computational cost 
@@ -55,6 +67,8 @@ Computational cost is typically not a limiting factor, as analysis can be done o
 
 ![Boston House Pricing](.github/assests/images/6.Boston.png)
 
+---
+
 ### 7. Education \& Academic Analytics 
 Priority Order: Reduced size → Performance → Interpretability → Computational cost 
 In academic research, smaller datasets are easier to collect, share, and analyze across institutions. 
@@ -63,3 +77,5 @@ Interpretability helps explain model decisions to educators or policymakers.
 Computational cost is generally low-priority in academic settings, where time and resources are more flexible.
 
 ![Students Performance](.github/assests/images/7.Students.png)
+
+---
