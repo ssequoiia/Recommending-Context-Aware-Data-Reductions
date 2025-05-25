@@ -47,7 +47,7 @@ Experiments were conducted to evaluate the system's performance on the following
 
 ### Datasets
 
-- [Heart Attack Prediction]: https://www.kaggle.com/datasets/juledz/heart-attack-prediction
+- [Heart Attack Prediction](https://www.kaggle.com/datasets/juledz/heart-attack-prediction)
 - [Hotel Booking]: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 - [Housing]: https://www.kaggle.com/datasets/camnugent/california-housing-prices
 - [Company Bankruptcy Prediction]: https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction
