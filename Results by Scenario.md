@@ -94,33 +94,6 @@ Priority Order: Computational cost → Performance → Reduced size → Interpre
 4. Interpretability - Retained Options:
 ![Priority 4](.github/assests/images/2.4.Priority.png)
 
-#### Result Analysis
-
-As we can observe in these tables, the two options displayed the same results. That is explained by the fact that when executiong option two, T-SVD failed after FAMD. This can be due to:
- - insufficient domain related configuration
- - FAMD can output NaNs or infinite values, if normalization fails due to 0 variance
- - Missing values, from categories with low variance
-
-##### If T-SVD failed to perform, why do we still have it as an option ? 
-
-The retained options  have the same performance profile, even if T-SVD failed. Both solutions were selected from Pareto efficient clusters. 
-
-#### Conclusion 
-
-These results resulted in several conclusions:
-
-1. The recommendations retained by our solution correspond to the technical profile and the analytical task of the user.
-2. We were not able to conclude on the level of compatibility with the ranked priorities of the user.
-3. The second helped us identify several limits of our solution:
-
-   3.1. Missiong domain-knowledge
-
-   3.2. Insufficient implementations
-
-   3.3. Insufficient personalization of the Reduction Techniques in an objective of better compqtibility with the compatible Reduction Techniques (the permutations couples)
-   
----
-
 ---
 
 ### 3. Sociodemographic Studies \& Public Policy 
@@ -143,13 +116,15 @@ Priority Order: Performance → Computational cost → Reduced size → Interpre
 
 #### Priority Compatibility
 
-1. Reduced size - Retained Options:
+1. Performance - Retained Options:
+   ![Priority1](.github/assests/images/4.1.Priority.png)
+2. Computational cost - Retained Options:
+   ![Priority2](.github/assests/images/4.1.Priority.png)
+3. Reduced size - Retained Options:
+   ![Priority3](.github/assests/images/4.1.Priority.png)
+4. Interpretability - Not Necessary:
+   ![Priority4](.github/assests/images/4.1.Priority.png)
    
-3. Interpretability - Retained Options:
-
-5. Performance - Retained Options:
-
-7. Computational cost - Not Necessary:
 
 ---
 
@@ -173,14 +148,15 @@ Priority Order: Performance → Computational cost → Reduced size → Interpre
 
 #### Priority Compatibility
 
-1. Reduced size - Retained Options:
+1. Performance - Retained Options:
+   ![Priority1](.github/assests/images/4.1.Priority.png)
+2. Computational cost - Retained Options:
+   ![Priority2](.github/assests/images/4.1.Priority.png)
+3. Reduced size - Retained Options:
+   ![Priority3](.github/assests/images/4.1.Priority.png)
+4. Interpretability - Not Necessary:
+   ![Priority4](.github/assests/images/4.1.Priority.png)
    
-3. Interpretability - Retained Options:
-
-5. Performance - Retained Options:
-
-7. Computational cost - Not Necessary:
-
 ---
 
 ### 5. Agriculture \& Food Safety 
@@ -204,13 +180,12 @@ Priority Order: Computational cost → Performance → Reduced size → Interpre
 #### Priority Compatibility
 
 1. Computational Cost - Retained Options:
-   
+   ![Priority1](.github/assests/images/5.1.Priority.png)
 3. Performance - Retained Options:
-
-5. Reduced size - Retained Options:
-
-7. Interpretability - Not Necessary:
-
+   ![Priority2](.github/assests/images/5.2.Priority.png)
+5. Reduced size - Retained Options: 
+   ![Priority3](.github/assests/images/5.3.Priority.png)
+7. Interpretability - Not Necessary, as we have alreary obtained one option at the precedent level
 ---
 
 ### 6. Urban Planning \& Real Estate Economics 
