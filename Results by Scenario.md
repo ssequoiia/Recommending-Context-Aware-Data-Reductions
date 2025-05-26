@@ -30,13 +30,39 @@ Priority Order: Reduced size → Interpretability → Performance → Computatio
 #### Priority Compatibility
 
 1. Reduced size - Retained Options:
-![](.github/assests/images/1.RedTech.png)   
-3. Interpretability - Retained Options:
+![Priority 1](.github/assests/images/1.1.Priority.png)   
+2. Interpretability - Retained Options:
+![Priority 2](.github/assests/images/1.2.Priority.png)   
+3. Performance - Retained Options:
+![Priority 3](.github/assests/images/1.3.Priority.png)   
+4. Computational cost - Retained Options:
+![Priority 4](.github/assests/images/1.4.Priority.png)
 
-5. Performance - Retained Options:
+#### Result Analysis
 
-7. Computational cost - Not Necessary:
+As we can observe in these tables, the two options displayed the same results. That is explained by the fact that when executiong option two, T-SVD failed after FAMD. This can be due to:
+ - insufficient domain related configuration
+ - FAMD can output NaNs or infinite values, if normalization fails due to 0 variance
+ - Missing values, from categories with low variance
 
+##### If T-SVD failed to perform, why do we still have it as an option ? 
+
+The retained options  have the same performance profile, even if T-SVD failed. Both solutions were selected from Pareto efficient clusters. 
+
+#### Conclusion 
+
+These results resulted in several conclusions:
+
+1. The recommendations retained by our solution correspond to the technical profile and the analytical task of the user.
+2. We were not able to conclude on the level of compatibility with the ranked priorities of the user.
+3. The second helped us identify several limits of our solution:
+
+   3.1. Missiong domain-knowledge
+
+   3.2. Insufficient implementations
+
+   3.3. Insufficient personalization of the Reduction Techniques in an objective of better compqtibility with the compatible Reduction Techniques (the permutations couples)
+   
 ---
 
 ### 2. Tourism \& Hospitality Management 
@@ -59,13 +85,41 @@ Priority Order: Computational cost → Performance → Reduced size → Interpre
 
 #### Priority Compatibility
 
-1. Reduced size - Retained Options:
+1. Computational cost - Retained Options:
+![Priority 1](.github/assests/images/2.1.Priority.png)   
+2. Performance - Retained Options:
+![Priority 2](.github/assests/images/2.2.Priority.png)   
+3. Reduced size - Retained Options:
+![Priority 3](.github/assests/images/2.3.Priority.png)   
+4. Interpretability - Retained Options:
+![Priority 4](.github/assests/images/2.4.Priority.png)
+
+#### Result Analysis
+
+As we can observe in these tables, the two options displayed the same results. That is explained by the fact that when executiong option two, T-SVD failed after FAMD. This can be due to:
+ - insufficient domain related configuration
+ - FAMD can output NaNs or infinite values, if normalization fails due to 0 variance
+ - Missing values, from categories with low variance
+
+##### If T-SVD failed to perform, why do we still have it as an option ? 
+
+The retained options  have the same performance profile, even if T-SVD failed. Both solutions were selected from Pareto efficient clusters. 
+
+#### Conclusion 
+
+These results resulted in several conclusions:
+
+1. The recommendations retained by our solution correspond to the technical profile and the analytical task of the user.
+2. We were not able to conclude on the level of compatibility with the ranked priorities of the user.
+3. The second helped us identify several limits of our solution:
+
+   3.1. Missiong domain-knowledge
+
+   3.2. Insufficient implementations
+
+   3.3. Insufficient personalization of the Reduction Techniques in an objective of better compqtibility with the compatible Reduction Techniques (the permutations couples)
    
-3. Interpretability - Retained Options:
-
-5. Performance - Retained Options:
-
-7. Computational cost - Not Necessary:
+---
 
 ---
 
@@ -149,13 +203,13 @@ Priority Order: Computational cost → Performance → Reduced size → Interpre
 
 #### Priority Compatibility
 
-1. Reduced size - Retained Options:
+1. Computational Cost - Retained Options:
    
-3. Interpretability - Retained Options:
+3. Performance - Retained Options:
 
-5. Performance - Retained Options:
+5. Reduced size - Retained Options:
 
-7. Computational cost - Not Necessary:
+7. Interpretability - Not Necessary:
 
 ---
 
@@ -179,13 +233,8 @@ Priority Order: Performance → Interpretability → Reduced size → Computatio
 
 #### Priority Compatibility
 
-1. Reduced size - Retained Options:
-   
-3. Interpretability - Retained Options:
-
-5. Performance - Retained Options:
-
-7. Computational cost - Not Necessary:
+We have obtained only one recommendation that is compatible with the statistical properties of the dataset. This means that only one reduction strategy has satisfied the technical constraints and has an optimal distribution of the values of the criteria for priorization.
+In this context, it is irrelevant to search for priority compatibility.
 
 ---
 
@@ -209,13 +258,8 @@ Priority Order: Reduced size → Performance → Interpretability → Computatio
 
 #### Priority Compatibility
 
-1. Reduced size - Retained Options:
-   
-3. Interpretability - Retained Options:
-
-5. Performance - Retained Options:
-
-7. Computational cost - Not Necessary:
+We have obtained only one recommendation that is compatible with the statistical properties of the dataset. This means that only one reduction strategy has satisfied the technical constraints and has an optimal distribution of the values of the criteria for priorization.
+In this context, it is irrelevant to search for priority compatibility.
 
 ---
 
