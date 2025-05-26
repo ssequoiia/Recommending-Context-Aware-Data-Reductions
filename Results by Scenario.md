@@ -19,9 +19,23 @@ Priority Order: Reduced size → Interpretability → Performance → Computatio
 - While performance is important, it’s acceptable to slightly compromise accuracy for transparency.
 - Computational cost is less critical due to access to hospital infrastructure or cloud computing.
 
+#### Obtained Results
+
 ![Heart Attack Prediction](.github/assests/images/1.Medical.png)
 
+#### Technical Compatibility with the Reduction Techniques
+
 ![Technical Compatibility with the Reduction Techniques](.github/assests/images/1.RedTech.png)
+
+#### Priority Compatibility
+
+1. Reduced size - Retained Options:
+![](.github/assests/images/1.RedTech.png)   
+3. Interpretability - Retained Options:
+
+5. Performance - Retained Options:
+
+7. Computational cost - Not Necessary:
 
 ---
 
@@ -35,7 +49,23 @@ Priority Order: Computational cost → Performance → Reduced size → Interpre
 - Reduced size is secondary, useful for reducing latency.
 - Interpretability is less crucial as decisions affect revenue but not human health or safety.
 
+#### Obtained Results
+
 ![Hotel Booking Prediction](.github/assests/images/2.Hotel.png)
+
+#### Technical Compatibility with the Reduction Techniques
+
+![Technical Compatibility with the Reduction Techniques](.github/assests/images/2.RedTech.png)
+
+#### Priority Compatibility
+
+1. Reduced size - Retained Options:
+   
+3. Interpretability - Retained Options:
+
+5. Performance - Retained Options:
+
+7. Computational cost - Not Necessary:
 
 ---
 
@@ -49,7 +79,23 @@ Priority Order: Performance → Computational cost → Reduced size → Interpre
 - Reduced size is valued to ensure feasibility on standard infrastructure.
 - Interpretability is less critical as decisions are aggregated and not made at the individual level.
 
+#### Obtained Results
+
 ![Housing](.github/assests/images/3.Housing.png)
+
+#### Technical Compatibility with the Reduction Techniques
+
+![Technical Compatibility with the Reduction Techniques](.github/assests/images/3.RedTech.png)
+
+#### Priority Compatibility
+
+1. Reduced size - Retained Options:
+   
+3. Interpretability - Retained Options:
+
+5. Performance - Retained Options:
+
+7. Computational cost - Not Necessary:
 
 ---
 
@@ -63,7 +109,23 @@ Priority Order: Performance → Computational cost → Reduced size → Interpre
 - Reduced size improves real-time applicability.
 - While interpretability is helpful (e.g., for regulatory compliance), it often takes a back seat to predictive accuracy in trading and risk scenarios.
 
+#### Obtained Results
+
 ![Company Bankruptcy Prediction](.github/assests/images/4.Bankruptcy.png)
+
+#### Technical Compatibility with the Reduction Techniques
+
+![Technical Compatibility with the Reduction Techniques](.github/assests/images/4.RedTech.png)
+
+#### Priority Compatibility
+
+1. Reduced size - Retained Options:
+   
+3. Interpretability - Retained Options:
+
+5. Performance - Retained Options:
+
+7. Computational cost - Not Necessary:
 
 ---
 
@@ -77,7 +139,23 @@ Priority Order: Computational cost → Performance → Reduced size → Interpre
 - Reduced size supports deployment on lightweight systems.
 - Interpretability is useful but not mission-critical for automated decisions.
 
+#### Obtained Results
+
 ![Mushrooms Classification](.github/assests/images/5.Mushrooms.png)
+
+#### Technical Compatibility with the Reduction Techniques
+
+![Technical Compatibility with the Reduction Techniques](.github/assests/images/5.RedTech.png)
+
+#### Priority Compatibility
+
+1. Reduced size - Retained Options:
+   
+3. Interpretability - Retained Options:
+
+5. Performance - Retained Options:
+
+7. Computational cost - Not Necessary:
 
 ---
 
@@ -91,7 +169,23 @@ Priority Order: Performance → Interpretability → Reduced size → Computatio
 - Reduced size supports usability across different municipalities.
 - Computational cost is typically not a limiting factor, as analysis can be done offline.
 
+#### Obtained Results
+
 ![Boston House Pricing](.github/assests/images/6.Boston.png)
+
+#### Technical Compatibility with the Reduction Techniques
+
+![Technical Compatibility with the Reduction Techniques](.github/assests/images/6.RedTech.png)
+
+#### Priority Compatibility
+
+1. Reduced size - Retained Options:
+   
+3. Interpretability - Retained Options:
+
+5. Performance - Retained Options:
+
+7. Computational cost - Not Necessary:
 
 ---
 
@@ -105,7 +199,23 @@ Priority Order: Reduced size → Performance → Interpretability → Computatio
 - Interpretability helps explain model decisions to educators or policymakers.
 - Computational cost is generally low-priority in academic settings, where time and resources are more flexible.
 
+#### Obtained Results
+
 ![Students Performance](.github/assests/images/7.Students.png)
+
+#### Technical Compatibility with the Reduction Techniques
+
+![Technical Compatibility with the Reduction Techniques](.github/assests/images/7.RedTech.png)
+
+#### Priority Compatibility
+
+1. Reduced size - Retained Options:
+   
+3. Interpretability - Retained Options:
+
+5. Performance - Retained Options:
+
+7. Computational cost - Not Necessary:
 
 ---
 
