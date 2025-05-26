@@ -21,6 +21,8 @@ Priority Order: Reduced size → Interpretability → Performance → Computatio
 
 ![Heart Attack Prediction](.github/assests/images/1.Medical.png)
 
+![Technical Compatibility with the Reduction Techniques](.github/assests/images/1.RedTech.png)
+
 ---
 
 ### 2. Tourism \& Hospitality Management 
